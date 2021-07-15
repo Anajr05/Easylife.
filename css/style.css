@@ -1,3 +1,94 @@
-.contacto{
-    padding: 5px;
+/* GLOBAL STYLES
+-----------------------------------------*/
+html,
+body {
+  height: 100%;
+}
+body {
+  padding: 10;
+  margin: 10;
+  font-family: "Open Sans", sans-serif;
+  color: #333333; 
+}
+h1,
+h2 {
+    font-family: "Nixie One", serif;
+    font-weight: 300; 
+    text-transform: uppercase;
+   margin: 0; 
+   font-weight: bold;
+}
+h3 {
+    font-family: "Nixie One", serif;
+    font-weight: 300; 
+    text-transform: uppercase;
+   margin: 0; 
+   font-weight: bold;
+}
+a {
+  color: #bd537b;
+  text-decoration-style:solid; 
+  text-anchor: start;
+}
+a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+header,
+main,
+nav {
+  padding: 20px 30px;
+}
+
+
+/* HEADER STYLES
+-----------------------------------------*/
+header h1 {
+  font-size: 48px;
+}
+header h2 {
+  font-size: 24px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  padding: 20px;
+}
+
+/* HOME PAGE STYLES
+-----------------------------------------*/
+.hero-image {
+  width: 100%;
+}
+
+/* ABOUT STYLES
+-----------------------------------------*/
+.profile-img {
+  float: left;
+  margin-right: 20px;
+  width: 50%; 
+}
+blockquote {
+  clear: both; 
+  padding: 5px 150px;
+  text-align: center;
+}
+blockquote p {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+/* FOOTER STYLES
+-----------------------------------------*/
+footer {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px;
+  text-transform: lowercase;
+}
+table,tr,td,div{
+    margin: 10px;
+    padding: 10px
 }
